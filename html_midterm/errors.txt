@@ -1,0 +1,46 @@
+Bella Sherry and Carson Bunkers (woohoo)
+
+DOCUMENT 1 - find_errors.html
+    1.  Line 1:  correct header to proper formatting
+    2.  Line 2:  move html language to line 2 above <head>
+    3.  Line 4:  correct text from html language= to html lang=
+    4.  Line 5:  add meta charset="UTF-8" for proper formatting
+    5.  Line 5:  add new line closing out head
+    6.  Line 9:  close header properly
+    7.  Line 11: close paragraph properly
+    8.  Line 19: correct li to remove backslash
+    9.  Line 24: correct from /ul to /ol to match start
+    10. Line 26: close paragraph with backslash p
+    11. Line 28: remove capitalization of image
+    12. Line 28: change to .jpg
+    13: Line 28: add alt= to title the image when hovering
+    14. Line 30: add paragraph/close for <a href to properly space
+    14: Line 39: add backslash to properly close td
+    15: Line 45: properly close table wiht backslash table 
+    16: Line 46: add/close paragraph to separate
+    17: Line 46: add /img before error.jpeg
+    18: Line 46: change to .jpg
+    19: Line 48: add/close paragraph 
+    20: Line 48: add strikethrough function to the word strikethrough 
+    21: Line 50: change bgcolor to style function and "background-color"
+    22: Line 54: add ending dashes and carrot to comment to correct
+    23: Line 56: close with /a
+    24: Line 58: change em to u to underline the text
+    25: Line 64: change h3 to h2 to match header type in front. 
+
+DOCUMENT 2 - find_errors_2.html
+    1.  Line 2:  add html lang
+    2:  Line 3:  add a line after that closes the head function
+    3.  Line 3:  move header line below the <body>
+    4.  Line 6:  remove html from line
+    5.  Line 7:  delete one indentation from div to make it equal to header in indentation 
+    6.  Line 8:  close strong function with backslash after important 
+    7.  Line 8:  close paragraph with backslash
+    8.  Line 10: change href to src
+    9.  Line 10: put /img/ before image title
+    10: Line 10: correct image title to match image title being referenced
+    11: Line 12: properly start heading 2
+    12: Line 14: properly start paragraph 
+    13: Line 15: add slashes and ! to properly start comment
+    14: Line 15: add row below and close div
+    15: Line 16: add L for html
