@@ -1,0 +1,17 @@
+body{
+    background: url('/img/cuboulderfootball.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+article{ 
+    float: right;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
