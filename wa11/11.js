@@ -3,11 +3,10 @@ const displayImg = document.getElementById('display-img');
 const images = Array.from(gallery.querySelectorAll('img'));
 let currentIndex = 0;
 
-// Create and append caption element to display area
 const caption = document.createElement('p');
 document.querySelector('.display').appendChild(caption);
 
-// Lightbox setup
+
 const lightbox = document.createElement('div');
 lightbox.id = 'lightbox';
 lightbox.classList.add('lightbox', 'hidden');
@@ -16,7 +15,7 @@ lightboxImg.id = 'lightbox-img';
 lightbox.appendChild(lightboxImg);
 document.body.appendChild(lightbox);
 
-// Function to update display image and caption
+
 function updateDisplayImage(index) {
   displayImg.src = images[index].src;
   displayImg.alt = images[index].alt;
@@ -24,7 +23,7 @@ function updateDisplayImage(index) {
   currentIndex = index;
 }
 
-// Click event for thumbnails
+
 gallery.addEventListener('click', function(event) {
   if (event.target.tagName === 'IMG') {
     const clickedIndex = images.indexOf(event.target);
@@ -32,7 +31,6 @@ gallery.addEventListener('click', function(event) {
   }
 });
 
-// Keyboard navigation
 document.addEventListener('keydown', function(event) {
   if (event.key === 'ArrowRight') {
     currentIndex = (currentIndex + 1) % images.length;
@@ -43,7 +41,6 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
-// Lightbox functionality
 displayImg.addEventListener('click', () => {
   lightboxImg.src = displayImg.src;
   lightbox.classList.remove('hidden');
