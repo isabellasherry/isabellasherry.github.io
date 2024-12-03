@@ -1,19 +1,35 @@
+/* title work */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     color: black;
   }
+
+/* orange gradient background */
+  body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; 
+    color: white; 
+    text-align: center;
+}
   
+/* title spacing */
   h1 {
     margin-top: 10px;
   }
-  
+
+/* game space */
   #gameCanvas {
     border: 2px solid black;
     display: block;
     margin: 20px auto;
   }
   
+  /* button design */
   button {
     margin: 5px;
     padding: 10px;
@@ -27,4 +43,7 @@ body {
   button:hover {
     background-color: #FF4500;
   }
+
+  
+
   
